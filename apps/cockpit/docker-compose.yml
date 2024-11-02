@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  cockpit:
+    image: cockpit/ws
+    container_name: cockpit
+    ports:
+      - "9090:9090"
+    volumes:
+      - /var/run/dbus:/var/run/dbus
+      - /run/systemd:/run/systemd
+      - /etc:/etc
+    restart: unless-stopped
