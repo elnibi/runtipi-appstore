@@ -1,0 +1,17 @@
+{
+  "name": "Cockpit",
+  "id": "cockpit",
+  "available": true,
+  "short_desc": "Web-based server management interface.",
+  "author": "Cockpit Project",
+  "port": 9090,
+  "categories": ["system", "management"],
+  "description": "Cockpit is a web-based interface for managing servers. It provides real-time performance monitoring and allows users to manage services, storage, and networking with ease.",
+  "tipi_version": 1,
+  "version": "238",
+  "source": "https://cockpit-project.org/",
+  "exposable": true,
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1724134338800,
+  "updated_at": 1724134338800
+}
